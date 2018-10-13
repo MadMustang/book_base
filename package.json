@@ -1,0 +1,29 @@
+{
+  "name": "book_base",
+  "version": "1.0.0",
+  "description": "A simple book database",
+  "main": "starter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon starter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadMustang/book_base.git"
+  },
+  "author": "Rionaldy Triantoro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadMustang/book_base/issues"
+  },
+  "homepage": "https://github.com/MadMustang/book_base#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.3"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.18.4"
+  }
+}
